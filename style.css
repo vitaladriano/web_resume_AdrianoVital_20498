@@ -1,75 +1,76 @@
  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 *{
-    font-family: 'Oswald', sans-serif;}
-
-
+font-family: 'Oswald', sans-serif;}
 
 body {
-    margin:0;
-    font-family: 'Sacramento', cursive;
-    color: black;
-    font-size: 1.2rem;
-  background-color: white
-  ;}
+margin:0;
+font-family: 'Sacramento', cursive;
+color: black;
+font-size: 1.2rem;
+background-color: white;}
   
-
-  .container {width:85%; margin:auto; max-width: 1200px;}
-    /*Menu*/
+.container {
+width:85%; 
+margin:auto; 
+max-width: 1200px;}
+/*Menu*/
   
-  /* Add a black background color to the top navigation */
-  .topnav {
+/* Add a black background color to the top navigation */
+.topnav {
+background-color: black;
+overflow: hidden;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #FFD549;
+font-size: x-large;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+  
+ /* Change the color of links on hover */
+.topnav a:hover {
+background-color:white;
+color:#FFD549;
+  }
+  
+/* Add a color to the active/current link */
+.topnav a.active {
     background-color: black;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #FFD549;
-    font-size: x-large;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color:white;
-    color:#FFD549;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: black;
     color: #FFD549;
   }
   
-  /*Menu*/
+/*  end  Menu*/
   
-  /*Banner*/
+                   /*Banner*/
   
-  .banner {width: 100%; height: 300px; object-fit: cover;}
+  .banner {
+   width: 100%; 
+   height: 300px;
+   object-fit: cover;}
   
-  /*Banner*/
-  
-  
-
-  
+/*        end Banner        */
   
   /*hr*/
-  .hr {margin-top: 25px; margin-bottom: 25px;
+  .hr {
+   margin-top: 25px;
+   margin-bottom: 25px;
        }
   /*hr/
   
   /*work section*/
   
-  .works-section {display: inline-block;}
+  .works-section {
+      display: inline-block;}
   
   .works-section .image {
       float: left; width:20%;}
-      .works-section .image img {
+
+  .works-section .image img {
       max-width: 100%;}
   
   .works-section .text {
@@ -86,122 +87,118 @@ body {
       margin-right: 0%;
   }
   
-  /*work section*/
+ /*   end work section    */
+
   
-  /*title sections*/
+/*title sections*/
   .title-sections {width: 100%; text-align: center; margin-bottom: 50px;}
   
-  /*title sections*/
+/* end title sections*/
   
   
   
-  /*skills section*/
+/*skills section*/
   .skills-img {width:20%; margin: 2.25%;}
   
-  /*skills section*/
+/*skills section*/
   
-  /*contact section*/
-  mark {background-color:#FFD549;
-  color: black;}
-  
-  
-  .contact-section {width:60%; margin: auto;}
-  .contact-text {    
-      float: right;
-      width: 20%;
-      margin: 2.35%;
-      text-align: center;
-      margin-top: 80px;}
-  
-  /*contact section*/
+/*contact section*/
+  mark {
+background-color:#FFD549;
+color: black;}
   
   
+.contact-section {width:60%; margin: auto;}
+.contact-text {    
+float: right;
+width: 20%;
+margin: 2.35%;
+text-align: center;
+margin-top: 80px;}
   
-  @media only screen and (max-width: 1024px) {
+/*end     contact section*/
+  
+  
+  
+@media only screen and (max-width: 1024px) {
     
-    body {width: 100%; overflow-x: hidden;}
+ body {
+ width: 100%; 
+ overflow-x: hidden;}
 
-  
+.container {width:95%;
+margin:auto;
+max-width: 100%;}
 
-    
-
-
-
+ /* end  Menu*/
   
-  .container {width:95%;
-     margin:auto;
-      max-width: 100%;}
-    /*Menu*/
-  
-  
-  
- 
-    /*about section*/
-  .about-section {max-width: 100%;
-     margin-top: 75px; 
-     display: inline-block;}
+/*about section*/
+.about-section {max-width: 100%;
+margin-top: 75px; 
+display: inline-block;}
   
 .about-section .image { width: 100%;
-     max-width: 100%;
-      float: none; 
-      text-align: right;}
+max-width: 100%;
+float: none; 
+text-align: right;}
   
 .about-section .image img{ width: 100%;
-         max-width: 100%;
-         height: 100%;
-	
-	position: relative;
+ max-width: 100%;
+height: 100%;
+position: relative;
 	
        }
-.about-section .text { width: 100%;
-      float: none;
-    font-size: large;}
-/*about section*/
+.about-section .text { 
+ width: 100%;
+ float: none;
+ font-size: large;}
+/* end about section*/
   
   
   /*hr*/
-  .hr {margin-top: 25px; margin-bottom: 25px;}
+  .hr {
+  margin-top: 25px; 
+  margin-bottom: 25px;}
   /*hr/
   
   /*work section*/
   
   .works-section {
-      display: inline-block;}
+   display: inline-block;}
   
-  .works-section .image {
-      float: left; width:100%;}
+.works-section .image {
+float: left; 
+width:100%;}
       
-      .works-section .image img {
-      max-width: 100%;
+.works-section .image img {
+max-width: 100%;
       }
   
-  .works-section .text {
-      width: 100%;
-      max-width: 100%;
-      font-size: 3rem;
+.works-section .text {
+width: 100%;
+max-width: 100%;
+font-size: 3rem;
   }
   
   .works-section .last {
       width: 100%;
   }
   
-  /*work section*/
+  /* end work section*/
   
   /*title sections*/
   .title-sections {width: 100%;
-     text-align: center;
-      margin-bottom: 50px;}
+    text-align: center;
+     margin-bottom: 50px;}
   
-  /*title sections*/
-  
-  
+  /* end title sections*/
   
   /*skills section*/
   .skills-img {max-width:100%; 
     width:100%; 
     margin: auto;}
   
-  /*skills section*/
+  /* end  skills section*/
   
   /*contact section*/
   .contact-section {width:100%; 
@@ -216,41 +213,31 @@ body {
   
   /* end contact section*/
 
-
-
-
 /* Footer section  */
 #footer p {
-	color: black;
-	font-size: 1.3rem;
+color: black;
+font-size: 1.3rem;
 }
+/*  end Footer section  */
 
-
-/* Footer section  */
-
-
-
-
-
-
-  }
-  .javasc-style {position: absolute;
-      text-align: center;
-      width: 100%;
-      font-size: 26px;
-      font-weight: bold;
-      margin-top: -150px;
-      color:#FFD549;}
+}
+.javasc-style {position: absolute;
+text-align: center;
+width: 100%;
+font-size: 26px;
+font-weight: bold;
+margin-top: -150px;
+color:#FFD549;}
   
   
-  .ml2 {
-    font-weight: 600;
-    font-size: 1.5em;
+.ml2 {
+font-weight: 600;
+font-size: 1.5em;
   }
   
-  .ml2 .letter {
-    font-family: 'Oswald', sans-serif;
-    display: inline-block;
-    line-height: 1em;
-    font-size: 1.5em;
+.ml2 .letter {
+font-family: 'Oswald', sans-serif;
+display: inline-block;
+line-height: 1em;
+font-size: 1.5em;
   }
