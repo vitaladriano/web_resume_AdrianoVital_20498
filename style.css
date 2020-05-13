@@ -244,12 +244,13 @@ body {
   
   
   .ml2 {
-    font-weight: 900;
-    font-size: 3.5em;
+    font-weight: 600;
+    font-size: 1.5em;
   }
   
   .ml2 .letter {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Oswald', sans-serif;
     display: inline-block;
     line-height: 1em;
+    font-size: 1.5em;
   }
